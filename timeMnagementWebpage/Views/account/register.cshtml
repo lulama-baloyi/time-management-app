@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Register</h1>
+<form method="post" action="/Account/Register">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="Name" required />
+    </div>
+    <div class="form-group">
+        <label for="surname">Surname</label>
+        <input type="text" class="form-control" id="surname" name="Surname" required />
+    </div>
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" class="form-control" id="username" name="Username" required />
+    </div>
+    <div class="form-group">
+        <label for="studentNumber">Student Number</label>
+        <input type="text" class="form-control" id="studentNumber" name="StudentNumber" required />
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="Password" required />
+    </div>
+    <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" class="form-control" id="confirmPassword" name="ConfirmPassword" required />
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Register</button>
+</form>
+

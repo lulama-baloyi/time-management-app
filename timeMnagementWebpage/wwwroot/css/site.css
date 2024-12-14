@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, .display-4 {
+    font-weight: bold;
+    text-shadow: 2px 2px #6c757d;
+}
+
+.jumbotron {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #343a40;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
